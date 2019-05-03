@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="/public/estilo.css"> <!-- Aqui é feito a chamada dos comandos do arquivo CSS -->
+	</head>
+
+	<body background="p_check-out-para-supermercado-com-esteira-2.jpg"> <!-- Imagem de fundo da pagina -->
+		<nav id="menu"> <!-- Aqui é realizada a criação do menu de navegação do site -->
+				<ul align="center">
+					<li><a href="InterfaceMercado.html">Home</a></li>
+					<li><a href="Cadastrar.html">Cadastrar</a></li>
+					<li><a href="Alterar.html">Alterar</a></li>
+					<li><a href="Remover.html">Remover</a></li>
+					<li><a href="Consultar.html">Consultar</a></li>
+				</ul>
+			<h1> Alterar </h1>
+			<fieldset align="center"> <!-- Fieldset: Desenha uma caixa em torno de um conjunto de elementos -->
+				<form method="post" action="/Alterar"> <!-- Aqui é feita a criação de um formulário de entrada de dados -->
+					<h3>Nome do produto:  <input type="text" name="nome"><br/></h3> <!-- Aqui é feito a caixa de texto onde será inserida as informações do produto -->
+					<h3>Código do produto: <input type="text" name="codigo"><br/></h3> <!-- Aqui é feito a caixa de texto onde será inserida as informações do produto -->
+					<h3>Novo nome do produto: <input type="text" name="novonome"><br/></h3> <!-- Aqui é feito a caixa de texto onde será inserida as informações do produto -->
+					<h3>Nome código do produto: <input type="text" name="novonome"><br/></h3> <!-- Aqui é feito a caixa de texto onde será inserida as informações do produto -->
+					</br><input type="submit" value="Alterar"></input> <!-- Aqui é feito o botão que realizar a alteração de dados no banco -->
+					<input type="reset" value="Limpar Campos"></input> <!-- Aqui é feito o botão que realizará a ação de limpar os campos de texto -->
+				</form>
+			</fieldset>	
+		</nav>
+	</body>
+</html>

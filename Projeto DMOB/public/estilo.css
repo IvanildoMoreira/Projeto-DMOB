@@ -1,0 +1,49 @@
+﻿#menu ul {
+    padding:50px; /* padding define uma a distância entre o conteúdo de um elemento e suas bordas */
+    margin:40px; /* margin simplesmente adiciona uma margem ao seu elemento */
+    background-color:DimGray; /* Background permite que você controle a cor do plano de fundo de um elemento */
+    list-style:none;
+	border-bottom: 2px solid White;
+	border-left: 2px solid White;
+	border-right: 2px solid White;
+	border-top: 2px solid White;
+}
+#menu ul li { 
+	display: inline;
+}
+
+#menu ul li a {
+    padding: 2px 10px; /* padding define uma a distância entre o conteúdo de um elemento e suas bordas */
+    display: inline-block;
+	
+
+    /* visual do link */
+    background-color:DimGray; /* Background permite que você controle a cor do plano de fundo de um elemento */
+    color: White; /* Aqui é definido a cor da letra */
+    text-decoration: none; /* Esse comando faz com que as letras do link não fique tracejado */
+    border-bottom:3px solid DimGray;
+	font-size: 30px; /* Aqui é definido o tamanho da letra */
+	font-family: Blippo, Helvetica, sans-serif;
+}
+h1 {
+	text-align: center;
+	padding:10px;
+	margin:40px; 
+	color: White; /* Aqui é definido a cor da letra */
+	font-size: 30px; /* Aqui é definido o tamanho da letra */
+	background-color:DimGray; /* Background permite que você controle a cor do plano de fundo de um elemento */
+	border-bottom: 2px solid White;
+	border-left: 2px solid White;
+	border-right: 2px solid White;
+	border-top: 2px solid White;
+}
+h3 {
+	color: Write;
+}
+fieldset{
+	background-color:DimGray; /* Background permite que você controle a cor do plano de fundo de um elemento */
+	border-bottom: 2px solid White;
+	border-left: 2px solid White;
+	border-right: 2px solid White;
+	border-top: 2px solid White;
+}
